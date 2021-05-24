@@ -21,4 +21,4 @@ def products():
 
 @app.route("/services")
 def services():
-    return "<p>Our services include:</p>"
+    return "<p>Our services include: <li>Software Development</li>  <li>Data Visualizations & Analysis</li> <li>Web Consulting</li> </p>"
